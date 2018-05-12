@@ -1,0 +1,124 @@
+html { background-color: slategrey ;}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+        
+}
+
+.header {
+    background: white;
+    text-align: center;
+    margin:10px 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 30px;
+}
+
+.nav {
+    background: white;
+    overflow: hidden;
+    margin:10px 50px;
+    padding: 30px;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: slateblue;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 51%;
+    margin: 10px 10px 10px 50px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 40%;
+    margin: 10px 10px 50px 36px;
+}
+
+.box {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;     
+}
+
+.articlebox {
+    background-color: slategray;
+    text-align: center;
+    padding: 10px;
+}
+
+.leftcolumn-nav {
+    background: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.articlelinks {
+float: left;
+display: block;
+width: 33.33%;
+padding-top: 26px;
+}
+
+.articlelinks:first-child {
+text-decoration: none;
+}
+
+.photo {
+float: left;
+width: 33.33%;
+}
+
+.context {
+float: left;
+width: 33.33%;
+}
+
+.leftcolumn-nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.articlebox p {
+    background: white;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    margin:10px 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+    }
+}
